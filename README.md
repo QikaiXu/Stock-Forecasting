@@ -1,6 +1,6 @@
-# A 股预测
+# Stock-Forecasting
 
->浙江大学《机器学习及其应用》
+>浙江大学《机器学习及其应用》课程作业，A 股预测
 >
 >项目来源于：<https://mo.zju.edu.cn/workspace/5fcfa8ad6a17c926c110ed60?type=app&tab=2>（只有我自己的号才能上）
 
