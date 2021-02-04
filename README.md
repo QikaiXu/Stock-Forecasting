@@ -42,7 +42,7 @@ epoch 200, train loss 0.513529, train mae 0.349038, mape 0.026197, valid mae 0.3
 
 最后的预测效果：
 
-![image-20210108185828112](README.assets/image-20210108185828112.png)
+![image-20210204204408427](README.assets/image-20210204204408427.png)
 
 其他指标等可查看 `lstm.ipynb`。
 
