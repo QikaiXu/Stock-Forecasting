@@ -32,7 +32,7 @@ def generate_data(data):
     # 建立 (14 -> 1) 的 x 和 y
     for i in range(15, n):
         x.append(data[i - 15: i - 1])
-        y.append(data[i])
+        y.append(data[i - 1])
 
     # 转换为 numpy 数组
     x = np.array(x)

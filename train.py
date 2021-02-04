@@ -1,6 +1,5 @@
 # 首先 import 一些主要的包
 import numpy as np
-import pandas as pd
 import time
 import matplotlib.pyplot as plt
 import os
@@ -19,7 +18,7 @@ file_name = 'train_data.npy'
 data = np.load(file_name)
 
 
-# 生成题目所需的训练集合
+# 生成题目所需的数据集合
 def generate_data(data):
     # 记录 data 的长度
     n = data.shape[0]
@@ -31,7 +30,7 @@ def generate_data(data):
     # 建立 (14 -> 1) 的 x 和 y
     for i in range(15, n):
         x.append(data[i - 15: i - 1])
-        y.append(data[i])
+        y.append(data[i - 1])
 
     # 转换为 numpy 数组
     x = np.array(x)

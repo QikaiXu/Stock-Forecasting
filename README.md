@@ -1,10 +1,10 @@
 # Stock-Forecasting
 
->浙江大学《机器学习及其应用》课程作业，A 股预测
+>浙江大学《机器学习及其应用》课程作业，A 股预测。
 >
->项目来源于：<https://mo.zju.edu.cn/workspace/5fcfa8ad6a17c926c110ed60?type=app&tab=2>（只有我自己的号才能上）
+>项目来源于：<https://mo.zju.edu.cn/workspace/5fcfa8ad6a17c926c110ed60?type=app&tab=2>（只有我自己的号才能上）。
 
-项目介绍及说明查看 `main.ipynb`
+项目介绍及说明查看 `main.ipynb`。
 
 ## 1 LSTM
 
@@ -33,18 +33,18 @@ class LSTM(nn.Module):
 
 ```text
 torch.Size([1984, 14]) torch.Size([1984, 1])
-epoch 10, train loss 78.426200, train mae 5.978433, mape 0.466861, valid mae 5.978433, mape 0.466861, time 0.46 sec
-epoch 20, train loss 51.656009, train mae 5.470824, mape 0.612202, valid mae 5.470824, mape 0.612202, time 0.43 sec
+epoch 10, train loss 72.788601, train mae 5.694631, mape 0.464045, valid mae 5.694631, mape 0.464045, time 0.46 sec
+epoch 20, train loss 52.200684, train mae 5.528595, mape 0.626163, valid mae 5.528595, mape 0.626163, time 0.46 sec
 ...
-epoch 190, train loss 0.876133, train mae 0.456156, mape 0.035377, valid mae 0.456156, mape 0.035377, time 0.45 sec
-epoch 200, train loss 0.833096, train mae 0.449250, mape 0.035143, valid mae 0.449250, mape 0.035143, time 0.45 sec
+epoch 190, train loss 0.581325, train mae 0.423464, mape 0.035151, valid mae 0.423464, mape 0.035151, time 0.53 sec
+epoch 200, train loss 0.513529, train mae 0.349038, mape 0.026197, valid mae 0.349038, mape 0.026197, time 0.55 sec
 ```
 
 最后的预测效果：
 
 ![image-20210108185828112](README.assets/image-20210108185828112.png)
 
-其他指标等可查看 `lstm.ipynb`
+其他指标等可查看 `lstm.ipynb`。
 
 
 
